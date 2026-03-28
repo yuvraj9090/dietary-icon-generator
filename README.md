@@ -155,6 +155,74 @@ For support, feature requests, or bug reports, please visit:
 - Caching system
 - Responsive design
 
+## How to Contribute
+
+We welcome contributions! Here's how you can help:
+
+### 🐛 Reporting Bugs
+
+1. Check if the bug has already been reported in [Issues](https://github.com/adonix26/dietary-icon-generator/issues)
+2. If not, [open a new issue](https://github.com/adonix26/dietary-icon-generator/issues/new)
+3. Include:
+   - WordPress version
+   - PHP version
+   - Browser & version
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Screenshots (if applicable)
+
+### 💡 Suggesting Features
+
+1. Open a new issue with the "Feature Request" label
+2. Describe the feature and why it would be useful
+3. Include any design mockups or examples
+
+### 🔧 Submitting Code Changes
+
+1. **Fork** the repository
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/your-username/dietary-icon-generator.git
+   ```
+3. **Create a branch** for your feature:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Make your changes** following WordPress coding standards
+5. **Test** your changes thoroughly
+6. **Commit** with clear messages:
+   ```bash
+   git commit -m "Add: brief description of changes"
+   ```
+7. **Push** to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+8. **Submit a Pull Request** with:
+   - Clear description of changes
+   - Link to related issue (if any)
+   - Screenshots of UI changes (if applicable)
+
+### 📝 Coding Standards
+
+- Follow [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
+- Use meaningful variable and function names
+- Add comments for complex logic
+- Keep functions focused and modular
+- Test with WordPress debug mode enabled
+
+### 🧪 Testing Checklist
+
+Before submitting:
+- [ ] Plugin activates without errors
+- [ ] Admin interface loads correctly
+- [ ] Shortcodes work on frontend
+- [ ] Icons generate in all 5 styles
+- [ ] No PHP warnings or notices
+- [ ] Responsive on mobile devices
+
+Thank you for contributing! 🙏
+
 ## License
 
 GPL v2 or later
