@@ -1,0 +1,88 @@
+/* Public Styles for Dietary Icon Generator */
+
+.dietary-icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.dietary-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.dietary-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: #f8f9fa;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 4px;
+}
+
+.dietary-badge-icon {
+    display: inline-block;
+    line-height: 0;
+    flex-shrink: 0;
+}
+
+.dietary-badge-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.dietary-badge-label {
+    line-height: 1;
+}
+
+.dietary-icons-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Badge color variants */
+.dietary-badge-vegan {
+    background: #e8f5e9;
+    color: #2d6a24;
+}
+
+.dietary-badge-vegetarian {
+    background: #f1f8e9;
+    color: #558b2f;
+}
+
+.dietary-badge-gluten-free {
+    background: #e3f2fd;
+    color: #1b7ab1;
+}
+
+.dietary-badge-dairy-free {
+    background: #e0f7fa;
+    color: #00838f;
+}
+
+.dietary-badge-egg-free {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.dietary-badge-halal {
+    background: #fff8e1;
+    color: #f57c00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dietary-badge {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+}
